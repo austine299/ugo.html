@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="login-to-page.css">
+	<title>Login Page</title>
+</head>
+<body>
+
+	<nav class="head">
+		<h2>School Website</h2>
+		<ul class="nav-bar">
+			<li><a href="schoolIndex.html">Home</a></li>
+			<li><a href="about-project.html">About Project</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="register.html">Register</a></li>
+			<li><a href="#" class="active">Login</a></li>
+			<li><a href="contact-us.html">Contact</a></li>
+
+		</ul>
+	</nav>
+
+	<div class="welcome">
+		<h3>Login Page</h3>
+		<hr style="width: 680px;">
+		<form>
+			
+			<div class="login">
+				<b>User Name:</b><br>
+				<input type="text" name="userid" size="70" class="name"><br>
+				<b>Password:</b><br>
+				<input type="password" name="pswrd" size="70" class="pswrd"><br><br>
+				
+				<input type="button" value="Login" onclick="check(this.form)" class="button">
+				<input type="button" value="Register New User Now" class="button button2"><br><br>
+				<a href="#" class="forg-paswrd">Forgotten Password ? Click Here</a>
+				<input type="reset" name=""
+				class="button">
+			</div>
+		</form>
+
+		<script type="text/javascript">
+			function check(form){
+				if(form.userid.value=="ugoo" && form.pswrd.value=="12345"){
+					open("schoolIndex.html")
+
+				}
+				else{
+					alert("wrong password or username")
+				}
+			}
+		</script>
+		
+	</div>
+
+	<div class="footer">
+		<div class="div1">
+			<ul class="list1">
+				<li><a href="#"  class="achor hover">Services</a></li>
+				<li><a href="#" class="hover">Loreem ipsum dolor</a></li>
+				<li><a href="#" class="hover">Cum soclis</a></li>
+				<li><a href="#" class="hover">Donec quam</a></li>
+				<li><a href="#" class="hover">Nuila consequat</a></li>
+				<li><a href="#" class="hover">In entin justo</a></li>
+			</ul>
+		</div>
+
+		<div class="div2">
+			<ul class="list2">
+				<li><a href="#"  class="achor hover">Services</a></li>
+				<li><a href="#" class="hover">Loreem ipsum dolor</a></li>
+				<li><a href="#" class="hover">Cum soclis</a></li>
+				<li><a href="#" class="hover">Donec quam</a></li>
+				<li><a href="#" class="hover">Nuila consequat</a></li>
+				<li><a href="#" class="hover">In entin justo</a></li>
+			</ul>
+		</div>
+
+		<div class="div3">
+			<ul class="list3">
+				<li><a href="#"  class="achor hover">Services</a></li>
+				<li><a href="#" class="hover">Loreem ipsum dolor</a></li>
+				<li><a href="#" class="hover">Cum soclis</a></li>
+				<li><a href="#" class="hover">Donec quam</a></li>
+				<li><a href="#" class="hover">Nuila consequat</a></li>
+				<li><a href="#" class="hover">In entin justo</a></li>
+			</ul>
+		</div>
+
+		<div class="div4">
+			<ul class="list4">
+				<li><a href="#" class="achor hover">Services</a></li>
+				<li><a href="#" class="hover">Loreem ipsum dolor</a></li>
+				<li><a href="#" class="hover">Cum soclis</a></li>
+				<li><a href="#" class="hover">Donec quam</a></li>
+				<li><a href="#" class="hover">Nuila consequat</a></li>
+				<li><a href="#" class="hover">In entin justo</a></li>
+			</ul>
+		</div>
+
+		<div class="div5">
+			<ul class="list5">
+				<li><a href="#"  class="achor hover">Services</a></li>
+				<li><a href="#" class="hover">Loreem ipsum dolor</a></li>
+				<li><a href="#" class="hover">Cum soclis</a></li>
+				<li><a href="#" class="hover">Donec quam</a></li>
+				<li><a href="#" class="hover">Nuila consequat</a></li>
+				<li><a href="#" class="hover">In entin justo</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+</body>
+</html>
